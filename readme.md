@@ -34,6 +34,8 @@ s̶o̶m̶e̶t̶h̶i̶n̶g̶ ̶i̶ ̶h̶a̶v̶e̶ ̶d̶o̶n̶e̶,̶ ̶y̶a̶y̶
 
 ---
 
+so when i accomplish something, i mark it with '+', and it'll be shown as striked, i. e. - done.
+
 it is possible to see what are your todos for last year:
 
 ```
