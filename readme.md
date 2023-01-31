@@ -24,11 +24,15 @@ then i run the script like
 
 and i get
 
-```
+---
+
 2023-01-31
- something i want to do, but didn't do yet.
- ̶s̶o̶m̶e̶t̶h̶i̶n̶g̶ ̶i̶ ̶h̶a̶v̶e̶ ̶d̶o̶n̶e̶,̶ ̶y̶a̶y̶
-```
+
+something i want to do, but didn't do yet.
+
+s̶o̶m̶e̶t̶h̶i̶n̶g̶ ̶i̶ ̶h̶a̶v̶e̶ ̶d̶o̶n̶e̶,̶ ̶y̶a̶y̶
+
+---
 
 it is possible to see what are your todos for last year:
 
