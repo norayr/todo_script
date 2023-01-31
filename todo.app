@@ -3,20 +3,23 @@
 STRK0='\e[9m'
 STRK1='\e[0m'
 
-FL=$1
+FL=$@
 
-while read line
+for i in ${FL}
 do
-  newline="${line:2}"
+echo $i
+  while read line
+  do
+    newline="${line:2}"
 
-  case $line in
-   +*)
-    echo -e " ${STRK0}${newline}${STRK1}"
-    ;;
-   -*)
-    echo " $newline"
-    ;;
-esac
+    case $line in
+     +*)
+      echo -e " ${STRK0}${newline}${STRK1}"
+      ;;
+     -*)
+      echo " $newline"
+      ;;
+  esac
+  done < $i
+done
 
-
-done < $FL
