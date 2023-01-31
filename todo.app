@@ -20,6 +20,6 @@ echo $i
       echo " $newline"
       ;;
   esac
-  done < $i
+  done < <(cat $i | sort -r -k1.1,1.1)
 done
 
